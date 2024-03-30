@@ -18,6 +18,6 @@ Execute the project:
 npm run start
 
 How to run Spring: 
-Verify you you have the java installed in your machine
-then:
+Verify you you have the java installed in your machine<br>
+then:<br>
 mvn spring-boot:run
