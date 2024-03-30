@@ -1,5 +1,5 @@
 # Spring and Angular Full Stack project
-Spring and Angular projected where have protected endpoints and only authenticated users with JWT and Spring Security can access. 
+Spring and Angular projected where you have protected endpoints and only authenticated users with JWT and Spring Security can access. 
 
 <h2>This project uses:</h2>
   Java/Spring for the backend<br>
