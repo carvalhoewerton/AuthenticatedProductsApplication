@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="wrapper">
+    <div class="title"><span>Atualizar Produto</span></div>
+    <form  >
+      <div class="row">
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder="Nome do produto" formControlName="name" required>
+      </div>
+      <div class="row">
+        <i class="fas fa-lock"></i>
+        <input type="price" placeholder="Preço" formControlName="price" required>
+      </div>
+      <div class="row">
+        <i class="fas fa-lock"></i>
+        <input type="quantity" placeholder="Quantidade" formControlName="quantity" required>
+      </div>
+
+      <div class="row button">
+        <button type="submit">Atualizar</button>
+      </div>
+      <div class="signup-link">
+        <a [routerLink]="['/products']">Produtos</a>
+      </div>
+    </form>
+  </div>
+</div>

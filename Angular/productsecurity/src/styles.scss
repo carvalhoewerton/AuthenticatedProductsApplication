@@ -1,0 +1,27 @@
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+// Definindo as cores primária, secundária e de aviso
+$productsecurity-primary: mat.define-palette(mat.$teal-palette, 500, 300, 700);
+$productsecurity-accent: mat.define-palette(mat.$light-blue-palette, A200, A100, A400);
+$productsecurity-warn: mat.define-palette(mat.$red-palette);
+
+// Definindo o tema com as cores personalizadas
+$productsecurity-theme: mat.define-light-theme((
+  color: (
+    primary: $productsecurity-primary,
+    accent: $productsecurity-accent,
+    warn: $productsecurity-warn,
+  )
+));
+
+// Aplicando o tema a todos os componentes do Angular Material
+@include mat.all-component-themes($productsecurity-theme);
+
+// Importando a fonte Poppins do Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+// Aplicando estilos gerais
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Poppins", sans-serif; }
