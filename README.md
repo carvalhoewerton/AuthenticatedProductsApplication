@@ -2,9 +2,9 @@
 Spring and Angular projected where have protected endpoints and only authenticated users with JWT and Spring Security can access. 
 
 <h2>This project uses:</h2>
-  Java/Spring for the backend
-  Angular for the frontend
-  Postgre for database
+  Java/Spring for the backend<br>
+  Angular for the frontend<br>
+  Postgre for database<br>
   Spring Security and JWT for the security
 
 <h2>How to run Angular:</h2> 
